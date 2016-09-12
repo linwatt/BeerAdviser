@@ -1,6 +1,6 @@
 package com.hfad.beeradviser;
 
-import android.support.v7.app.AppCompatActivity;
+import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Spinner;
@@ -8,7 +8,7 @@ import android.widget.TextView;
 
 import java.util.List;
 
-public class FindBeerActivity extends AppCompatActivity {
+public class FindBeerActivity extends Activity {
 
     private BeerExpert expert = new BeerExpert();
 
